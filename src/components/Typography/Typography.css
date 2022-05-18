@@ -1,0 +1,32 @@
+.typo-container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+ .typo__image-rectangle {
+    width: 42vw;
+    height: auto;
+} 
+.typo__title {
+  display: flex;
+  flex-direction: column;
+  padding: 0 9em;
+  justify-content: center;
+}
+h1 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 44px;
+}
+h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+}
+
+.typo__wrap {
+  display: flex;
+ 
+}
+

@@ -1,0 +1,29 @@
+.color__wrap{
+display: flex;
+justify-content: space-between;
+width: 100%
+}
+.color{
+    width: 26vw;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+.color:hover{
+    cursor: pointer;
+}
+.rec-white, .rec-opacity{
+    border: 1px solid var(--border);
+}
+.rec-gray{
+    background: var(--rectangle-gray);
+    color: var(--nav-bg);
+}
+.rec-opacity{
+    color: var(--label);
+    
+}
+.rec-green{
+    background-color: var(--rectangle-green);
+    color: var(--nav-bg);
+}

@@ -1,0 +1,45 @@
+.nav-container {
+  box-shadow: 0px 4px 120px rgb(0 0 0 / 10%);
+  width: 13rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 2em
+
+}
+
+
+h6 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  
+}
+
+.hamburger-container{
+    margin-top: 2em
+}
+.hamburger {
+  display: none;
+}
+.nav__presentation, .nav__design{
+    border-top: 1px solid var(--border);
+    width: 100%;
+ }
+
+
+
+@media screen and (max-width: 800px) {
+    .nav__wrap{
+       display: none;
+     }
+  .hamburger {
+    display: block;
+    transition: all 1s ease-in;
+    color: var(--title-hover);
+  }
+  .hamburger:hover{
+      cursor: pointer;
+  }
+}

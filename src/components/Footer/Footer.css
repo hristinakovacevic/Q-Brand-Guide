@@ -1,0 +1,10 @@
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 5em;
+}
+.footer__icons-wrap{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}

@@ -1,0 +1,22 @@
+.stack-container{
+    padding: 4em 28em 4em 9em;
+    border-bottom: 1px solid var(--border);
+}
+.stack__options-wrap{
+    background-color: var(--center-page-bg);
+    padding: 1em;
+    margin-top: 5em;
+}
+.stack__option{
+display: flex;
+justify-content: space-between;
+background: var(--nav-bg);
+padding: 1em;
+box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.06);
+}
+.stack__p {
+    text-align: justify;
+}
+.image-wrap{
+    margin-left: 6em;
+}
