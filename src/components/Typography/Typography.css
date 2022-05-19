@@ -3,16 +3,16 @@
   flex-direction: column;
 }
 
-
- .typo__image-rectangle {
-    width: 42vw;
-    height: auto;
-} 
+.typo__image-rectangle {
+  width: 42vw;
+  height: auto;
+}
 .typo__title {
   display: flex;
   flex-direction: column;
   padding: 0 9em;
   justify-content: center;
+  text-align: justify;
 }
 h1 {
   font-weight: 700;
@@ -23,10 +23,27 @@ h2 {
   font-weight: 700;
   font-size: 32px;
   line-height: 39px;
+  margin-top: 27px;
+  margin-bottom: 54px;
 }
 
 .typo__wrap {
   display: flex;
- 
 }
-
+@media screen and (max-width:700px){
+  .typo__title{
+    padding: 2em
+  }
+  .typo__image{
+    display: none;
+  }
+  h1{
+    font-size: 8vw;
+  }
+  h2{
+    font-size: 6vw;
+    line-height: 34px;
+  }
+  
+}
+@media screen and (max-width: 1200px) {}

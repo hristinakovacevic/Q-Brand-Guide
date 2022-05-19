@@ -22,7 +22,7 @@ const TypeStack = () => {
               <p>This font is used for headlines</p>
             </div>
             <div className="image-wrap">
-              <img src={montBold} alt="mont bold" />
+              <img src={montBold} alt="mont bold" className="font" />
             </div>
           </div>
         </div>
@@ -34,7 +34,7 @@ const TypeStack = () => {
               <p>This font is used for headlines</p>
             </div>
             <div className="image-wrap">
-              <img src={montRegular} alt="mont regular" />
+              <img src={montRegular} alt="mont regular" className="font" />
             </div>
           </div>
         </div>

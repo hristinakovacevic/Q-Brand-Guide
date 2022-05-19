@@ -15,7 +15,7 @@ const Typography = () => {
       <Fade>
         <div className="typo__wrap">
           <div className="typo__title">
-            <p className="label">DESIGN</p>
+            <p className="label nav-label">DESIGN</p>
             <h1>Typography</h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non

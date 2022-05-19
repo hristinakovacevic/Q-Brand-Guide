@@ -4,42 +4,54 @@
   height: auto;
   display: flex;
   flex-direction: column;
-  padding: 2em
-
+  padding: 2em;
 }
-
 
 h6 {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  
 }
 
-.hamburger-container{
-    margin-top: 2em
+.hamburger-container {
+  display: flex;
+  align-items: center;
 }
 .hamburger {
   display: none;
 }
-.nav__presentation, .nav__design{
-    border-top: 1px solid var(--border);
+.nav__presentation,
+.nav__design {
+  border-top: 1px solid var(--border);
+  width: 100%;
+}
+.nav-media-container {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .nav-media-container {
+    display: flex;
+    box-shadow: 0px 4px 120px rgb(0 0 0 / 10%);
     width: 100%;
- }
-
-
-
-@media screen and (max-width: 800px) {
-    .nav__wrap{
-       display: none;
-     }
+    justify-content: space-between;
+  }
+  .navmedia-logo-wrap {
+    display: flex;
+    align-items: center;
+    padding: 1em;
+  }
+  .nav-container {
+    display: none;
+  }
   .hamburger {
     display: block;
     transition: all 1s ease-in;
     color: var(--title-hover);
+    padding: 1em;
   }
-  .hamburger:hover{
-      cursor: pointer;
+  .hamburger:hover {
+    cursor: pointer;
   }
 }

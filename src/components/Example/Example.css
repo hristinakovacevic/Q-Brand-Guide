@@ -3,3 +3,8 @@
   flex-direction: column;
   width: 50%;
 }
+@media screen and (max-width:1200px){
+.text-wrap{
+  width: auto;
+}
+}

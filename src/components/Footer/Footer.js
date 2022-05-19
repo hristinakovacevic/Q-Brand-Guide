@@ -7,7 +7,9 @@ const Footer = () => {
   return (
     <div className="footer-container">
       <div className="footer__img-wrap">
-        <img src={footerLogo} alt="quantox logo" />
+        <a href="https://quantox.com/" target="_blank">
+          <img src={footerLogo} alt="quantox logo" />
+        </a>
       </div>
       <div className="footer__media-icons-wrap">
         <div className="footer__icons-wrap">
@@ -15,7 +17,9 @@ const Footer = () => {
           <img src={ig} alt="instagram" />
           <img src={lin} alt="linkedIn" />
         </div>
-        <p>Quantox Technology 2022. All rights reserved.</p>
+        <p className="footer-rights-reserved">
+          Quantox Technology 2022. All rights reserved.
+        </p>
       </div>
     </div>
   );
